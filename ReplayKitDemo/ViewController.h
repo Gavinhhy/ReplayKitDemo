@@ -2,7 +2,7 @@
 //  ViewController.h
 //  ReplayKitDemo
 //
-//  Created by 雷发扬 on 17/8/29.
+//  Created by Gavin on 17/8/29.
 //  Copyright © 2017年 Gavin. All rights reserved.
 //
 
@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIButton *recordButton;
+- (IBAction)recordAction:(UIButton *)sender;
 
 @end
 
